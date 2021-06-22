@@ -1,0 +1,18 @@
+body {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    background: url('./assets/background.jpg');
+    font-family: 'Poppins', sans-serif;
+}
+
+body header img {
+    width: 400px;
+}
+
+body #snake {
+    padding: 2rem;
+}

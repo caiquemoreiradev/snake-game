@@ -77,7 +77,6 @@ function startGame() {
 
 
     if(snakeX != food.x || snakeY != food.y) {
-        gameOver__hide();
         snake.pop();
     }
     else {
@@ -92,10 +91,6 @@ function startGame() {
     }
 
     snake.unshift(newHead);
-}
-
-function gameOver__hide() {
-    document.getElementById('game_over').classList.remove('hide');
 }
 
 let game = setInterval(startGame, 100);

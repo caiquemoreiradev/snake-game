@@ -1,12 +1,18 @@
 body {
     display: flex;
+    height: 100vh;
 
     align-items: center;
     justify-content: center;
+
     color: #fff;
 
     background: url('./assets/background.jpg');
     font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 body header img {
